@@ -1,0 +1,68 @@
+
+
+/* color palatte (https://coolors.co/palette/cb997e-ddbea9-ffe8d6-b7b7a4-a5a58d-6b705c) */
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-pink{
+    background-color:rgb(255, 232, 214)!important ;
+}
+
+.color-pink{
+    color:rgb(255, 232, 214)!important ;
+}
+
+.bg-desert{
+    background-color:rgb(221, 190, 169)!important ;
+}
+
+.color-desert{
+    color:rgb(221, 190, 169)!important ;
+}
+
+.bg-buff{
+    background-color:rgb(203, 153, 126)!important ;
+}
+
+.color-buff{
+    color:rgb(203, 153, 126)!important ;
+}
+
+.bg-green{
+    background-color:rgb(107, 112, 92)!important ;
+}
+
+.color-green{
+    color:rgb(107, 112, 92)!important ;
+}
+
+.bg-sage{
+    background-color:rgb(165, 165, 141)!important ;
+}
+
+.color-sage{
+    color:rgb(165, 165, 141)!important ;
+}
+
+.bg-ash{
+    background-color:rgb(183, 183, 164)!important ;
+}
+
+.color-ash{
+    color:rgb(183, 183, 164)!important ;
+}
+
+.mt-50{
+    margin-top:10%!important;
+}
+
+.feelingButtonAdd{
+    background-color:rgb(117, 117, 94)!important ;
+}
+.feelingButtonRemove{
+    background-color:rgb(183, 183, 164)!important ;
+}
+
+
+
