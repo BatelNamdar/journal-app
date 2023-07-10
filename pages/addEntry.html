@@ -16,14 +16,12 @@
     <div class="container-fluid vh-100 w-100 " id="newEntryPage">
        <div class="container-fluid ">
             <div class="row text-center d-flex  justify-content-center">
-                <div class="col-10 bg-pink py-3 mt-5 mb-3 rounded shadow">
-                    <h1> good to see you again, *yourname*.</h1>
-                    <h3>did you know?</h3>
-                    <h4>journaling fact</h2>
+                <div id="entryWelcomeDiv" class="col-10 bg-pink py-3 mt-5 mb-3 rounded shadow">
+                    
                 </div>
                 
                 <div class="col-10 bg-pink m-3 py-3 rounded shadow">
-                    <h3>how are you feeling today?</h2>
+                    <h3>How are you feeling today?</h2>
                     <div class="row d-flex justify-content-center ">
                         <hr class="w-50 m-3 ">
                     </div>
@@ -32,12 +30,35 @@
                        
                     </div>
 
+                    
+                    <button id="addFeelingsToEntryButton" class="bg-green btn my-2 text-light shadow">open new entry</button>
+                    
                     <div class="row d-flex justify-content-center ">
                         <hr class="w-50 m-3 ">
                     </div>
 
-                    <button id="addFeelingsToEntryButton" class="bg-green btn my-2 text-light shadow">Add to entry</button>
+                    <div id="suggestEntryDiv" class="row  d-flex justify-content-center">
+                        <div class="col-6 d-flex justify-content-center">
+                            <div class=" w-75">
+
+                                <p class="fs-4  ">Make your own</p>
+                                <input type="text" class="w-100" placeholder="Title goes here">
+                                <br>
+                                <button class="btn rounded bg-desert mt-1">go</button>
+                            </div>
+                        </div>
+                        <div class="col-6 d-flex justify-content-center">
+                            <div class="w-75 ">
+
+                                <p class="fs-4  ">Our suggestion</p>
+                                <button class="btn rounded bg-desert">What are your biggest dreams and aspirations?</button>
+                            </div>
+                         </div>
+                    </div>
+                 
                 </div>
+
+                
             </div>
        </div>
     </div>
